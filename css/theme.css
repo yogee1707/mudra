@@ -1,0 +1,53 @@
+body {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+  width: auto;
+}
+
+.myTitle{
+    font-size: 150%;
+}
+
+.myIcon{
+  width: 40%;
+}
+
+.myMainIcon{
+  width: 20%;
+}
+
+.myBigIcon{
+  width: 45%;
+}
+
+@media only screen and (max-width: 500px) {
+    .myTitle {
+        font-size: 100%;
+    }
+
+    .myIcon{
+       width: 100%;
+   }
+
+    .myMainIcon{
+     width: 50%;
+   }
+
+   .myBigIcon{
+     width: 80%;
+   }
+
+}
